@@ -80,7 +80,7 @@ h2{
     font-family: 'friends';
     padding: 10px 8%;
 }
-p{
+main > p{
     background-color: #9aeba360;
     margin: 5px;
     padding: 5px;
