@@ -1,0 +1,101 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'friends';
+    src: url('fonts/friends.TTF') format('truetype');
+}
+
+:root {
+    --cor1: #012030;
+    --cor2: #13678A;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #012030;
+}
+
+header {
+    background-color: var(--cor2);
+    color: white;
+    border-radius: 0px 0px 50px 50px;
+
+    font-family: 'friends';
+    letter-spacing: -4px;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 > p{
+    display: inline;
+    font-size: 1em;
+}
+#crc1{color: #FF181E;}
+#crc2{color: #00B4EA;}
+#crc3{color: #ffbd00;}
+#crc4{color: #FF181E;}
+#crc5{color: #ffbd00;}
+#crc6{color: #00B4EA;}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 90vw;
+    max-width: 900px;
+
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.2em;
+
+    box-shadow: -15px 0px 10px rgba(0, 0, 0, 0.39);
+}
+main > h1{
+    padding: 5px;
+    font-family: friends;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.img{
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.img > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 10px 15%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: var(--cor5);
+}
+.left > img{
+    width: 50%;
+    border-radius: 0px 80px 80px 0px;
+    box-shadow: 5px 0px 10px;
+    margin-right: 15px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
