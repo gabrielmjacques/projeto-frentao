@@ -26,7 +26,7 @@ body{
 header {
     background-color: var(--cor2);
     color: white;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 30px 30px;
 
     font-size: 80%;
     
@@ -55,7 +55,7 @@ main{
 
     text-align: center;
     font-family: cursive;
-    font-size: 1.2em;
+    font-size: 0.8em;
 
     box-shadow: -15px 0px 10px rgba(0, 0, 0, 0.39);
 }
@@ -63,33 +63,39 @@ main > h1{
     padding: 5px;
     font-family: friends;
     letter-spacing: 5px;
-    font-size: 4vw;
+    font-size: 5vmin;
 }
-.img{
+.fotofrentao{
     margin: auto;
     width: 95%;
-    text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding: 0px;
 }
-.img > img{
+.fotofrentao > img{
     width: 100%;
     border-radius: 10px;
 }
 
-h2{
-    font-family: 'friends';
-    padding: 10px 8%;
-}
 main > p{
     background-color: #9aeba360;
     margin: 5px;
     padding: 5px;
 }
 
+h2{
+    font-family: 'friends';
+    padding: 10px;
+    background-color: #c2e0a5;
+    margin-top: 10px;
+}
+
+main > div{
+    padding: 20px 0px;
+}
+
 .left{
     display: flex;
     align-items: center;
-    text-align: left;
     background-color: var(--cor5);
 }
 .left > img{
@@ -97,6 +103,25 @@ main > p{
     border-radius: 0px 80px 80px 0px;
     box-shadow: 5px 0px 10px;
     margin-right: 15px;
+}
+h2.tleft{
+    text-align: left;
+}
+
+
+.right{
+    display: flex;
+    align-items: center;
+    background-color: var(--cor5);
+}
+.right > img{
+    width: 60%;
+    border-radius: 80px 0px 0px 80px;
+    box-shadow: -5px 0px 10px;
+    margin-left: 15px;
+}
+h2.tright{
+    text-align: right;
 }
 
 
