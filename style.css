@@ -50,19 +50,18 @@ h1 > p{
 #crc6{color: #00B4EA;}
 
 main{
-    background-color: white;
+    background-color: var(--cor1);
     margin: auto;
-    width: 90vw;
+    width: 96vw;
     max-width: 900px;
 
     text-align: center;
     font-family: cursive;
     font-size: 0.8em;
-
-    box-shadow: -15px 0px 10px rgba(0, 0, 0, 0.39);
 }
 main > h1{
-    padding: 5px;
+    padding: 50px 0px 10px 0px;
+    color: white;
     font-family: friends;
     letter-spacing: 5px;
     font-size: 5vmin;
@@ -78,16 +77,18 @@ main > h1{
     border-radius: 10px;
 }
 
-main > p{
-    background-color: #9aeba360;
-    margin: 5px;
+main > div > p{
+    font-size: large;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.295);
     padding: 5px;
 }
 
 h2{
+    color: white;
     font-family: 'friends';
+    letter-spacing: 4px;
     padding: 10px;
-    background-color: #c2e0a5;
+    background-color: var(--cor2);
     margin-top: 10px;
 }
 
@@ -98,7 +99,8 @@ main > div{
 .left{
     display: flex;
     align-items: center;
-    background-color: var(--cor5);
+    background-color: #6ec3e7ec;
+    text-align: right;
 }
 .left > img{
     width: 60%;
@@ -114,7 +116,8 @@ h2.tleft{
 .right{
     display: flex;
     align-items: center;
-    background-color: var(--cor5);
+    background-color: #84cdecec;
+    text-align: left;
 }
 .right > img{
     width: 60%;
@@ -128,8 +131,13 @@ h2.tright{
 
 
 footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
     background-color: black;
     color: white;
+    margin: auto;
     padding: 10px;
     text-align: center;
     font-weight: bold;
