@@ -53,7 +53,7 @@ main{
     background-color: var(--cor1);
     margin: auto;
     width: 96vw;
-    max-width: 900px;
+    max-width: 700px;
 
     text-align: center;
     font-family: cursive;
@@ -99,7 +99,7 @@ main > div{
 .left{
     display: flex;
     align-items: center;
-    background-color: #6ec3e7ec;
+    background-color: #afdcf0ec;
     text-align: right;
 }
 .left > img{
@@ -116,7 +116,7 @@ h2.tleft{
 .right{
     display: flex;
     align-items: center;
-    background-color: #84cdecec;
+    background-color: #afdcf0ec;
     text-align: left;
 }
 .right > img{
